@@ -1,0 +1,16 @@
+@Host=https://localhost:7009
+
+GET {{Host}}/contacts
+Accept: application/json
+
+###
+GET {{Host}}/contacts/2
+
+###
+GET {{Host}}/contacts/99
+
+###
+GET {{Host}}/contacts/0
+
+###
+GET {{Host}}/contacts/any
